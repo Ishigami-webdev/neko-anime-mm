@@ -13,7 +13,7 @@ const ANIME = [
     genres: ["BL", "Romance", "School", "Comedy"],
     desc:
       "A soft high-school BL story: serious student council vibes + a delinquent boy, and the slow burn journey into becoming a couple.",
-    poster: "images/45days.jpg",
+    poster: "45days.jpg",
     watchUrl: "#",      // <-- put your watch link here
     downloadUrl: "#",   // <-- optional direct download link (or keep #)
   },
@@ -28,7 +28,7 @@ const ANIME = [
     genres: ["Adventure", "Comedy", "Fantasy", "Isekai", "Slice of Life"],
     desc:
       "A chill isekai where modern cooking becomes an OP skill. Cozy vibes, strong familiars, and food that breaks the fantasy world’s logic.",
-    poster: "images/campfire.jpg",
+    poster: "campfire.jpg",
     watchUrl: "#",
     downloadUrl: "#",
   },
@@ -43,7 +43,7 @@ const ANIME = [
     genres: ["Comedy", "Romance", "Drama"],
     desc:
       "A chaotic rom-com where one rental date spirals into lies, feelings, and nonstop relationship drama.",
-    poster: "images/rent.jpg",
+    poster: "rent.jpg",
     watchUrl: "#",
     downloadUrl: "#",
   },
@@ -58,7 +58,7 @@ const ANIME = [
     genres: ["Fantasy", "Drama", "Mystery"],
     desc:
       "A student gets pulled into Twisted Wonderland and ends up dealing with magical school chaos inspired by iconic villains.",
-    poster: "images/twisted.jpg",
+    poster: "twisted.jpg",
     watchUrl: "#",
     downloadUrl: "#",
   },
@@ -73,7 +73,7 @@ const ANIME = [
     genres: ["Romance", "Comedy", "Slice of Life"],
     desc:
       "A cute rom-com slice-of-life about an accident-prone guy and the girl who can’t stop worrying about him.",
-    poster: "images/yano.jpg",
+    poster: "yano.jpg",
     watchUrl: "#",
     downloadUrl: "#",
   },
@@ -88,7 +88,7 @@ const ANIME = [
     genres: ["Romance", "Workplace", "Comedy", "Drama"],
     desc:
       "A workplace romance twist: a woman ends up as a cat and gets taken in by her boss… and things get weirdly wholesome.",
-    poster: "images/cat.jpg",
+    poster: "cat.jpg",
     watchUrl: "#",
     downloadUrl: "#",
   },
