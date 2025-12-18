@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neko Anime MM</title>
+
+  <!-- Optional favicon (small icon in tab). Put a small image at images/favicon.png if you want -->
+  <!-- <link rel="icon" href="images/favicon.png" type="image/png" /> -->
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <!-- Logo -->
+      <div class="logo-img-wrap" title="Neko Anime MM">
+        <img class="logo-img" src="images/logo.jpg" alt="Neko Anime MM Logo" />
+      </div>
+
+      <div>
+        <h1>Anime Channel - Neko Anime MM</h1>
+        <p>Powered By - Ishigami</p>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input
+        id="search"
+        class="input"
+        type="search"
+        placeholder="Search anime... (e.g., 'Rent', 'Cat', 'Campfire')"
+      />
+
+      <select id="genre" class="input">
+        <option value="all">All genres</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h2>Tonight’s Picks</h2>
+        <p>Search, filter, and tap an anime card for details.</p>
+      </div>
+      <div class="chips" id="chips"></div>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h3>Library</h3>
+        <span id="count" class="count"></span>
+      </div>
+
+      <div id="grid" class="grid"></div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modalBackdrop" class="modal-backdrop hidden" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="closeModal" class="close" aria-label="Close">✕</button>
+
+      <div class="modal-content">
+        <div class="poster" id="modalPoster"></div>
+
+        <div class="info">
+          <h3 id="modalTitle"></h3>
+          <div class="meta" id="modalMeta"></div>
+          <p id="modalDesc" class="desc"></p>
+          <div class="tags" id="modalTags"></div>
+
+          <!-- Review + Buttons -->
+          <div class="review-box">
+            <label class="review-label" for="reviewInput">Your review</label>
+            <textarea
+              id="reviewInput"
+              class="review-input"
+              rows="4"
+              placeholder="Write your thoughts..."
+            ></textarea>
+
+            <div class="review-actions">
+              <button id="saveReviewBtn" class="btn">Save Review</button>
+              <button id="downloadBtn" class="btn">Download</button>
+              <button id="watchBtn" class="btn">Watch</button>
+            </div>
+
+            <p id="reviewSaved" class="review-saved"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Anime Channel - Neko Anime MM • Powered By - Ishigami</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
